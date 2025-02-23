@@ -1,0 +1,48 @@
+.header {
+    /* Com relação ao formato da DIV */
+    width: 100vw;
+    height: 10vh;
+
+    /* Com relação a formatação */
+    background-color: var(--azulPrincipal);
+    color: var(--textoBranco);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menuContainer {
+    /* Com relação ao formato do Menu */
+    width: 45%;
+    height: 100%;
+    background-color: white;
+
+    /* Com relação aos elementos internos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem {
+    /* Com relação ao formato do Item do Menu */
+    height: 100%;
+    width: 25%;
+
+    /* Com relação aos efeitos e design */
+    background-color: var(--azulPrincipal);
+
+    /* Com relação ao conteúdo do Item */
+    font-size: 1.125rem;
+    text-align: center;
+    align-content: center;
+    font-family: var(--font-inter), sans-serif;
+    color: var(--textoBranco);
+    text-decoration: none;
+
+    transition: all 0.3s linear;
+}
+
+.menuItem:hover {
+    background-color: var(--fundoClaro);
+    color: var(--textoEscuro);
+}

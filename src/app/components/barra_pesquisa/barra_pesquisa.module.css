@@ -1,0 +1,36 @@
+.secaoPesquisa {
+    margin: 10px;
+    width: 60vw;
+    height: 8vh;
+    background-color: red;
+    
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.secaoPesquisa input {
+    height: 100%;
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid var(--azulPrincipal);
+    border-radius: 10px;
+}
+
+.secaoPesquisa button {
+    height: 100%;
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid var(--azulPrincipal);
+    border-radius: 10px;
+
+    background-color: var(--azulPrincipal);
+    color: var(--textoBranco);
+
+    transition: all 0.3s ease-out;
+}
+
+.secaoPesquisa button:hover {
+    background-color: var(--fundoClaro);
+    color: var(--textoEscuro);
+}
