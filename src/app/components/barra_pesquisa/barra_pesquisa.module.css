@@ -1,6 +1,6 @@
 .secaoPesquisa {
     /* Com relação ao formato do elemento */
-    margin-top: 100px;
+    margin-top: 60px;
     width: 60vw;
     height: 8vh;
 
@@ -23,7 +23,7 @@
 
     /* Com relação as propriedades de cor do elemento */
     border: 1px solid var(--azulPrincipal);
-    box-shadow: 1px 1px 2px var(--fundoEscuro);
+    box-shadow: 1px 1px 5px var(--fundoEscuro);
 
     /* Com relação ao conteúdo dentro do elemento */
     font-family: var(--font-inter);

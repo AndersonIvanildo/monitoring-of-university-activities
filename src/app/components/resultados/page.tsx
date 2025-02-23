@@ -4,7 +4,7 @@ import BarraPesquisa from "../barra_pesquisa/page"
 export default function Conteudo() {
     return (
         <div className={styles.conteudo}>
-            
+            texto
         </div>
     )
 }
