@@ -1,0 +1,15 @@
+.conteudo {
+    
+    
+    /* Com relação ao formato do elemento */
+    margin-top: 1rem;
+    height: 60vh;
+    width: 60vw;
+
+
+    /* Com relação as propriedades de cor do elemento */
+    background-color: red;
+    
+    /* Com relação ao conteúdo dentro do elemento */
+
+}

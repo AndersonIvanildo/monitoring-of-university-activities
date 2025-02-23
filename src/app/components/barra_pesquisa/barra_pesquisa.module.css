@@ -1,30 +1,51 @@
 .secaoPesquisa {
-    margin: 10px;
+    /* Com relação ao formato do elemento */
+    margin-top: 100px;
     width: 60vw;
     height: 8vh;
-    background-color: red;
-    
+
+    /* Com relação as propriedades de cor do elemento */
+    background-color: var(--fundoClaro);
+
+    /* Com relação ao conteúdo dentro do elemento */
     display: flex;
     justify-content: center;
-    gap: 10vw;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .secaoPesquisa input {
-    height: 100%;
-    width: 60%;
+    /* Com relação ao formato do elemento */
+    height: 90%;
+    width: 70%;
     padding: 1rem;
+    border-radius: 50px;
+
+    /* Com relação as propriedades de cor do elemento */
     border: 1px solid var(--azulPrincipal);
-    border-radius: 10px;
+    box-shadow: 1px 1px 2px var(--fundoEscuro);
+
+    /* Com relação ao conteúdo dentro do elemento */
+    font-family: var(--font-inter);
+    caret-color: var(--azulPrincipal);
+
+    transition: all 0.3s ease-in-out;
 }
 
 .secaoPesquisa button {
-    height: 100%;
-    width: 30%;
+    /* Com relação ao formato do elemento */
+    height: 90%;
+    width: 25%;
     padding: 1rem;
-    border: 1px solid var(--azulPrincipal);
-    border-radius: 10px;
+    border-radius: 50px;
 
+    /* Com relação as propriedades de cor do elemento */
+    border: 1px solid var(--azulPrincipal);
     background-color: var(--azulPrincipal);
+    box-shadow: 1px 1px 2px var(--fundoEscuro);
+
+    /* Com relação ao conteúdo dentro do elemento */
+    font-family: var(--font-inter);
     color: var(--textoBranco);
 
     transition: all 0.3s ease-out;
@@ -33,4 +54,5 @@
 .secaoPesquisa button:hover {
     background-color: var(--fundoClaro);
     color: var(--textoEscuro);
+    cursor: pointer;
 }
