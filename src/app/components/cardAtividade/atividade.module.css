@@ -1,9 +1,15 @@
 /* Referente a cada atividade que aparecerá na lsita de atividades */
 .card {
     /* Com relação ao formato do elemento */
-    
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    border: 5px 5px;
 
     /* Com relação as propriedades de cor do elemento */
+    background-color: var(--azulPrincipal);
 
     /* Com relação ao conteúdo dentro do elemento */
+    color: var(--textoBranco);
+    font-family: var(--font-inter);
 }

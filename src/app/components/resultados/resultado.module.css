@@ -5,12 +5,20 @@
     height: 60vh;
     width: 60vw;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
 
     /* Com relação as propriedades de cor do elemento */
     background-color: var(--fundoClaro);
     box-shadow: 5px 5px 8px rgba(25, 38, 45, 0.3);
 
     /* Com relação ao conteúdo dentro do elemento */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow-y: auto;
+}
 
+.conteudo > .card {
+    flex: 1 1 calc(33.333% - 1rem); /* Ajuste a largura dos cards conforme necessário */
+    box-sizing: border-box;
 }

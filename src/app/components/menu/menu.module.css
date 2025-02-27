@@ -15,7 +15,7 @@
     /* Com relação ao formato do Menu */
     width: 45%;
     height: 100%;
-    background-color: white;
+    background-color: var(--azulPrincipal);
 
     /* Com relação aos elementos internos */
     display: flex;

@@ -7,7 +7,6 @@ export default function Menu() {
       <header className={styles.header}>
         <nav className={styles.menuContainer}>
           <Link href="/" className={styles.menuItem}>Home</Link>
-          <Link href="/mapa" className={styles.menuItem}>Mapa</Link>
           <Link href="/sobre" className={styles.menuItem}>O Projeto</Link>
           <a href="https://github.com/AndersonIvanildo" target="_blank" rel="noopener noreferrer" className={styles.menuItem}>
             GitHub

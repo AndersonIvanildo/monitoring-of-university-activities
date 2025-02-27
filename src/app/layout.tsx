@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Favicon from "../../public/favicon.svg"
 
+import { ActivityProvider } from '@/app/context/ActivityContext';
+
 const inter = Inter({
   variable: "--font-inter", // define uma variável CSS para a fonte
   subsets: ["latin"],
@@ -29,7 +31,7 @@ export default function RootLayout({
           Ao aplicar essa classe no <body>, a variável --font-inter passa a estar disponível para ser usada
           em seus módulos CSS.
       */}
-      <body className={inter.variable}>{children}</body>
+      <body className={inter.variable}><ActivityProvider>{children}</ActivityProvider></body>
     </html>
   );
 }
