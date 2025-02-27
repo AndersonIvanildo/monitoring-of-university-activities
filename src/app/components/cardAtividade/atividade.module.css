@@ -64,7 +64,7 @@ margin-top: 15px;
 padding: 8px 16px;
 margin: 0 10px;
 border: none;
-border-radius: 4px;
+border-radius: 10px;
 cursor: pointer;
 }
 
@@ -77,3 +77,27 @@ color: white;
 background: #666;
 color: white;
 }
+
+.modalButton {
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .modalButton:first-child {
+    background: #ff4444; /* Vermelho para excluir */
+    color: white;
+  }
+  
+  .modalButton:nth-child(2) {
+    background: #ffcc00; /* Amarelo para editar */
+    color: black;
+  }
+  
+  .modalButton:last-child {
+    background: #666; /* Cinza para cancelar */
+    color: white;
+  }
