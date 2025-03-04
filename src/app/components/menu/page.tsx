@@ -15,7 +15,7 @@ export default function Menu() {
         </Link>
 
         <a
-          href="https://github.com/AndersonIvanildo"
+          href="https://github.com/AndersonIvanildo/monitoring-of-university-activities"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.menuItem}
