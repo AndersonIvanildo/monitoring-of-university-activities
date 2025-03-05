@@ -13,7 +13,7 @@ interface ActivityContextType {
   activities: Activity[];
   addActivity: (activity: Activity) => void;
   deleteActivity: (id: string) => void;
-  updateActivity: (updatedActivity: Activity) => void; // Adicionado
+  updateActivity: (updatedActivity: Activity) => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
 }
