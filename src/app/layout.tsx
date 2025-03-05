@@ -1,4 +1,3 @@
-// app/layout.tsx (ou layout.js, se estiver usando JavaScript)
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -7,10 +6,8 @@ import Favicon from "../../public/favicon.svg"
 import { ActivityProvider } from '@/app/context/ActivityContext';
 
 const inter = Inter({
-  variable: "--font-inter", // define uma variável CSS para a fonte
+  variable: "--font-inter",
   subsets: ["latin"],
-  // opcionalmente, você pode especificar os pesos desejados, por exemplo:
-  // weight: ['400', '700'],
 });
 
 export const metadata: Metadata = {
